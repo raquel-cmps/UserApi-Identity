@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "q7OWULq19gXEhar6S2h/Oa3wS2QmpJcqfQXIbUdjTPM=",
+  "Source": "UserApi-Identity",
+  "BasePath": "_content/UserApi-Identity",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
