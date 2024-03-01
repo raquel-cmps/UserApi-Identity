@@ -26,7 +26,8 @@ public class TokenService
         {
             new Claim("username", user.UserName!),
             new Claim("id", user.Id),
-            new Claim(ClaimTypes.DateOfBirth, user.BirthDate.ToString())
+            new Claim(ClaimTypes.DateOfBirth, user.BirthDate.ToString()),
+            new Claim(ClaimTypes.Role, user.Profile)
         };
         var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["SymmetricSecurityKey"]!));
         var signingCredentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);

@@ -60,3 +60,4 @@ D:\Estudos\Alura\UserApi-Identity\bin\Debug\net8.0\System.IdentityModel.Tokens.J
 D:\Estudos\Alura\UserApi-Identity\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\Estudos\Alura\UserApi-Identity\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 D:\Estudos\Alura\UserApi-Identity\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Estudos\Alura\UserApi-Identity\obj\Debug\net8.0\UserApi-Identity.sourcelink.json

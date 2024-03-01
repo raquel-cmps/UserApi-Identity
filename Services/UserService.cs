@@ -26,7 +26,7 @@ public class UserService
         
         // a senha é guadada como um hash, o que é fundamental para a segurança
         var res = await _userManager.CreateAsync(user, dto.Password);
-
+        await _userManager.AddToRoleAsync(user, "Admin");
         if (!res.Succeeded) 
             throw new ApplicationException("Falha no cadastro de usuario");
     }

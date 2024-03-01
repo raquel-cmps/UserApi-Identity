@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using UserApi_Identity.Authorization;
 using UserApi_Identity.Data.Dtos;
 using UserApi_Identity.Services;
 
@@ -22,6 +24,7 @@ public class ProductController : ControllerBase
     }
 
     [HttpGet]
+    [Authorize(Roles = Roles.Admin)]
     public IResult Get()
     {
         var products = _service.FindAll();
